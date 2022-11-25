@@ -1,0 +1,908 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.form-control-dark {
+  border-color: var(--bs-gray);
+}
+.form-control-dark:focus {
+  border-color: #fff;
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+.dropdown-toggle {
+  outline: 0;
+}
+
+#main_container{
+  background-color: #292929;
+}
+  
+
+
+#h1_world{
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  padding-left: 4%;
+  padding-top: 0.3%;
+}
+
+#tags_header{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 10px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  padding-left: 9%;
+
+}
+
+#pesquisar{
+  width: 30%;
+  margin-bottom: -40px;
+  margin-left: 30%;
+}
+#btn_download{
+  font-family: 'Roboto', sans-serif;
+  background-color: #292929;
+  color: #00FF29;
+  border: none;
+  padding-top: -5%;
+  padding-bottom: 2%;
+}
+
+#btn_login {
+  color: rgb(255, 255, 255);
+  background-color: #292929;
+  font-weight: bolder;
+  border: none;
+  padding-top: -5%;
+  padding-bottom: 2%;
+}
+
+#carousel_base{
+  width: 78.2%;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: -25px;
+}
+#container {
+  background-color: black;
+  width: 1500px;
+  height: 100px;
+  margin-right: -500px;
+  margin-bottom: 50px;
+  
+}
+#loca{
+  color: rgb(66, 133, 221);
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+#canvas_header{
+  width: 100%;
+  height: 0.1px;
+  background-color: #292929;
+  margin-bottom: 50px;
+  margin-top: -25px;
+}
+
+
+#container_principal{
+  background-color: black;
+}
+#container_carousel{
+  margin-top: -55px;
+
+}
+
+#novidade{
+  font-size: 26px;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+
+#novidade_conteudo{
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  
+}
+
+#barra{
+  background-color: #C6C6C6;
+  height: 1px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+
+#card{
+  background-color: #4f4f4f;
+  width: 100%;
+  max-height: 100%;
+}
+#text{
+  font-family: "Roboto";
+  font-weight: bolder;
+  color: #FFFF;
+}
+#card1{
+  margin-left: 10.5%;
+  
+}
+
+#footer {
+  margin-top: 15%;
+  width: 100%;
+  
+
+  
+}
+
+#home {
+  color: #fff;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+#termos {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+#ajuda {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+#copy {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  font-size: 60%;
+  padding-left: 20px;
+}
+
+.container2{
+  padding: 2px 16px;
+  background-color: #000;
+  width: 100%;
+  max-height: 100px;
+  padding-bottom: 9%;
+}
+
+#fundo_ragnarok{
+  background-image: url(../Todos_jogos/img/fundo_ragnarok.webp);
+  background-size: cover;
+  margin-top: 5%;
+  width: 100%; 
+  position: absolute;
+  background-position: 50% 53%  ;
+  
+}
+
+#ragnarok{
+  position: relative;
+  width: 35%;
+  max-height: 47%;
+   margin-left: 20%;
+  margin-top: -5%;
+  
+}
+
+#escrita_ragnarok{
+  width: 20%;
+  margin-top: -20%;
+  margin-left: 8%;
+  
+}
+
+#div_godofwar{
+  background-color: #322F2F;
+  width:  80% ;
+  
+  border-radius: 30px;
+  margin: 0 auto;
+  margin-top:38%;
+  min-height: 80px;
+  height: 100px;
+  max-height: 100% ;
+  position: relative;
+
+ 
+ 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+}
+
+#lancamento{
+  font-family: 'Roboto', sans-serif;
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: clamp(0.5em, 0.8em + 0.6vw, 1.5em);
+
+}
+
+#forte_candidato {
+  font-family: 'Roboto', sans-serif;
+  padding-left: 30px;
+  padding-top: -5px;
+  font-size: clamp(0.5em, 0.5em + 0.4vw, 1.5em);
+  color: #B7AEAE;
+  flex-basis: 100%;
+  
+ 
+  
+}
+
+#previa{
+  background-color: #309B41 ;
+  color: #fff;
+  font-weight: 700 ;
+  width: 12%;
+  border-radius: 30px;
+  max-height: 40px;
+  margin-left:80%;
+  border: none;
+  font-size: clamp(0.5em, 0.3em + 1vw, 1.5em);
+  position: absolute;
+  
+  
+  
+
+  
+}
+
+#previa:hover{
+  background-color: #245a2e ;
+  
+}
+
+#bt-previa {
+  margin: -60px;
+  
+}
+
+
+
+#eu{
+  background-color: #000;
+}
+
+#navbar{
+  font-family: 'Roboto', sans-serif;
+  background-color: #3C3C3C;
+  color: #FFF;
+  font-weight: 500;
+  padding: 1.2%;
+  font-size: clamp(0.8em, 0.3em + 1.2vw, 1.5em);
+  display: flex;
+  width: 100%;
+  margin-top: 15%;
+}
+
+
+
+#navp{
+  
+  margin-left: 7%;
+  margin: 0 auto;
+  text-decoration: none;
+  color: #fff;
+}
+
+#todosjogos{
+  margin-left: 3%;
+  color: #fff;
+  font-weight: lighter;
+  font-size: clamp(0.3em, 0.7em + 1.5vw, 2em);
+  margin-top: 10%;
+  display: flex;
+  
+}
+
+
+#opcoes{
+  
+  text-align: center;
+  
+  
+}
+#escolha{
+  background-color: #fff;
+  max-width: 20%;
+  border-radius: 15px;
+  font-weight: 800;
+  margin: 3%;
+  margin-top: 10%;
+
+}
+
+
+#escolha_texto{
+  font-size: clamp(0.1em, 0.3em + 1vw, 1em);
+  padding-bottom: 7%;
+  text-align: center;
+
+
+}
+
+
+  
+
+
+
+
+#icones{
+  padding-top: 5%;
+  width: 25%;
+   
+}
+
+#icones_nintendo{
+  padding-top: 5%;
+  width: 32%;
+   
+}
+
+#card_baixo{
+  background-color: #322F2F;
+  width: 50%;
+  color: #fff;
+  display: inline-flex;
+  border-radius: 0 0 5px 5px;
+
+}
+
+#card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #000;
+  text-align: center;
+  margin-top: 5%;
+  font-size: clamp(0.5em, 0.6em + 0.3vw, 1em);
+  
+  
+  
+}
+
+#escolha:hover{
+ 
+  opacity: 0.8;
+  transform: scale(1.1);
+  transition: 0.5s; 
+  
+  
+}
+
+#foto:hover{
+ 
+  opacity: 0.6;
+  transition: 0.5s; 
+  
+  
+}
+
+
+
+
+#foto{
+  max-width: 50%;
+  max-height: 85%;
+  border-radius: 5px 5px 0 0  ;
+  
+  
+}
+
+
+#margin{
+  margin-left: -15%;
+  
+  
+}
+
+#card_texto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 5%;
+  font-size: clamp(0.5em, 0.6em + 0.5vw, 1.5em);
+  margin-left: 5%;
+  font-weight: 600;
+  
+  
+}
+
+
+#bottom{
+  background-color: #322F2F;
+}
+
+#texto{
+  color: #fff;
+}
+
+#card_total{
+  border: none;
+  border-radius: 5px;
+  width: 240px;
+  height: 200px;
+}
+
+.movie_card {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.movie_card:hover {
+  opacity: 1;
+}
+
+/*Parte interna---------------------------------*/
+#sobre{
+    width: 55%;
+    margin-left: 10%;
+    margin-top:2%;
+}
+#sobree{
+  color: #fff;
+  font-size:clamp(0.3em, 0.7em + 1.5vw, 2em);
+  margin-top: 7%;
+}
+video{
+    margin-left: 10%; 
+    margin-top: 2%;
+    max-width: 56%;
+    height: auto;
+}
+
+#video{
+    margin-left: 10%; 
+    margin-top: 2%;
+    max-width: 56%;
+    height: auto;
+}
+#compra{
+  margin-top:-25%
+  
+}
+
+#descricao{
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+}
+#bloco2{
+  height: 45px;
+  width: 21%;
+  margin-left: 69%;
+  margin-top: -25%;
+  border-radius:5px;
+}
+#texto2{
+    font-size: clamp(0.5em, 1em + 0.5vw, 1.3em);
+    text-align:center;
+    padding-top: 2%;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    margin: -4%;
+    padding: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+}
+
+
+#bloco1{
+    height: 45px;
+    width: 21%;
+    margin-left: 67%;
+    margin-top:-0.5%;
+    border-radius:5px;
+}
+#texto1{
+    font-size: clamp(0.5em, 1em + 0.5vw, 1.4em);
+    text-align:center;
+    padding-top: 2%;
+    margin-top: -1%;
+    width: 100%;
+    border-radius:5px;
+    background-color: #00FF29;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #00FF29;
+    border-radius: 0.6em;
+    color: #00FF29;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.3em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'roboto', sans-serif;
+    
+}
+#canva1{
+  margin-bottom:1%;
+}
+#canva2{
+  margin-bottom: 1%;
+}
+#canva3{
+  margin-bottom: 1.5%;
+}
+#desen{
+  margin-top: 6%;
+  font-family: 'Roboto', sans-serif;
+}
+#edi{
+  margin-top:-2%;
+  font-family: 'Roboto', sans-serif;
+}
+#data{
+  margin-top: -2%;
+  font-family: 'Roboto', sans-serif;
+}
+#folha{
+  max-width: 4%;
+  margin-left: 23%;
+  margin-top: -71%;
+}
+#adi{
+  margin-left: 10%;
+  margin-top: 5%;
+}
+#img12{
+  max-width: 10%;
+  margin-top: 1%;
+}
+
+#adicionar{
+  font-family: 'Roboto', sans-serif;
+  float:right;
+  margin-top: -25%;
+  margin-right: 5%;
+  width: 20%;
+  font-size: 16px;
+  padding: 0.6%;
+  background-color: transparent;
+  color: #ffffff;
+  border-color: #ffffff;
+  border-radius: 5px;
+  display: inline;
+}
+#imagem{
+    margin-top: 8%;
+    height: 250px ;
+    background-image: url(../img/pcbuilding2_baixo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#comprar{
+  font-family: 'Roboto', sans-serif;
+  float:right;
+  margin-top: -21%;
+  margin-right: 5%;
+  width: 20%;
+  font-size: 16px;
+  padding: 0.6%;
+  background-color: transparent;
+  color: #00FF29;
+  border-color: #00FF29;
+  border-radius: 5px;
+  display: inline;
+}
+
+#adicionar:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#comprar:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+#form_texto{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#ultimo_canvas{
+    background-color: #fff;
+    height: 2px;
+    width: 7%;
+    margin-left: 11%;
+    margin-bottom: 2%;
+}
+
+
+
+#caixa{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 10px 0px;
+    border-bottom: 1px solid #fff;
+    float:right;
+    margin-top: -15%;
+    margin-right: 5%;
+    width: 20%;
+    color: #fff;
+}
+
+#caixa2{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid #fff;
+  float:right;
+  margin-top: -11%;
+  margin-right: 5%;
+  width: 20%;
+  color: #fff;
+}
+
+#caixa3{
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-bottom: 1px solid #fff;
+  float:right;
+  margin-top: -7%;
+  margin-right: 5%;
+  width: 20%;
+  color: #fff;
+}
+
+
+
+#canvas_sobre {
+  background-color: #fff;
+  width: 56%;
+  height: 2px;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+#descricao{
+  margin-top: 5%;
+}
+
+#texto_linha{
+  font-family: 'Roboto', sans-serif;
+  float:right;
+  margin-top: -28%;
+  margin-right: 5%;
+  width: 20%;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  display: inline;
+  font-weight: 700;
+}
+
+
+@media (max-width: 1050px)
+{
+  #imagem{
+    height : 170px;
+  }
+
+  #texto_linha{
+    font-size: 12px;
+  }
+
+  #adicionar{
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #comprar{
+    font-size: 12px;
+   
+  }
+
+  
+
+  #form_texto{
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #caixa2{
+    margin-top: -8%;
+  }
+
+  #caixa3{
+    margin-top: -1%;
+  }
+
+  
+}
+
+@media (max-width: 850px)
+{
+  
+  #imagem{
+    height: 150px;
+    margin-top: 14%;
+  }
+
+  #comprar{
+    font-size: 12px;
+    margin-top: -20%;
+  }
+
+  
+
+ 
+  
+}
+
+@media (max-width: 650px)
+{
+
+  #imagem{
+   height: 100px;
+    margin-top: 96%;
+
+  }
+  #adicionar{
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+    width: 80%;
+    font-size: 16px;
+
+  }
+
+  #texto_linha{
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    font-size: 12px;
+  }
+
+  #canvas_sobre {
+    background-color: #fff;
+    width: 56%;
+    height: 2px;
+    margin-left: 22%;
+    margin-top: 26%;
+    
+  
+  }
+
+  video{
+    max-width: 80%;
+    
+  }
+
+  #comprar{
+    margin-top: 1%;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+    width: 80%;
+    font-size: 16px;
+
+  }
+
+  #caixa{
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 18px;
+    width: 80%;
+    font-size: 16px;
+
+  }
+
+  #caixa2{
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 24px;
+    width: 80%;
+    font-size: 16px;
+
+  }
+
+  #caixa3{
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 24px;
+    width: 80%;
+    font-size: 16px;
+
+  }
+
+  #form_texto{
+    font-size: 14px;
+  }
+
+  #sobre {
+    margin: 0 auto;
+  }
+
+  #adi {
+
+    margin-left: 30%;
+  }
+
+  #ultimo_canvas{
+    width: 30%;
+  }
+
+  #descricao{
+    margin-top: 15%;
+    
+  }
+
+  #canvas_sobre{
+    width: 0;
+    margin-top: -10%;
+  }
+
+  
+}
+
+@media (max-width: 300px)
+{
+  #imagem {
+    height: 100px;
+    margin-top: 118%;
+  }
+}
+
+
+
